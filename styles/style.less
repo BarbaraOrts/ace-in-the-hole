@@ -1,0 +1,220 @@
+/*
+File Name: styles.less
+Date: 07/10/20
+Author: Barbara Orts
+*/
+
+/* VARIABLES */
+
+/* colors */
+
+@baseColor: #F5F5F5;
+@mBgColor: @baseColor;
+@tBgColor: #DBDBDB;
+@dBgColor: #DBDBDB;
+@footerColor: #2F443B;
+
+
+/* sizes */
+
+@mFontSize: 16px;
+@tFontSize: 16px;
+@dFontSize: 18px;
+@h1FontSize: 2em;
+@h2FontSize: 1.3em;
+@h3FontSize: 1.2em;
+
+
+/* margins */
+
+@pHeadingMargin: 1em 0;
+@mBodyMargin: 0 1em;
+@tBodyMargin: 0 4%;
+@dBodyMargin: 0 3%;
+@olLiLeftMargin: 8px;
+
+@import "mixins.less";
+
+/* GENERAL STYLES */
+
+body, html {
+  height: 100%;
+  line-height: 1.5em;
+}
+
+body {
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  #ace_mixins > .commonProperties (@mBgColor, @mFontSize, @mBodyMargin);
+}
+
+header {
+  display: grid;
+    }
+
+header, footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#logotype {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+p {
+  margin: @pHeadingMargin;
+}
+
+h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+  #ace_mixins > .size(@h1FontSize);
+}
+
+h2 {
+  margin: @pHeadingMargin;
+  font-weight: bold;
+  #ace_mixins > .size(@h2FontSize);
+}
+
+
+footer {
+  #ace_mixins > .color(@footerColor);
+  margin: 10px;
+  text-align: center;
+}
+
+/* SMALL IMG GALLERY _ STATIC _ GRID */
+
+.photoGallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  margin: 1.5em;
+}
+
+.photoGallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.image2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.image3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.image4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.image5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.image6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 480px) {
+
+
+}
+
+/* TABLET STYLES */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    #ace_mixins > .commonProperties(@tBgColor, @tFontSize, @tBodyMargin);
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col_one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .col_two {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 20px;
+  }
+
+  .col_three {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .col_four {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+}
+
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 1025px) {
+
+  body {
+    #ace_mixins > .commonProperties(@dBgColor, @dFontSize, @dBodyMargin);
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  input, label, ul, div {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+
+}
