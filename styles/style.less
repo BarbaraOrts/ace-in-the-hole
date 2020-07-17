@@ -12,7 +12,7 @@ Author: Barbara Orts
 @mBgColor: @baseColor;
 @tBgColor: #DBDBDB;
 @dBgColor: #DBDBDB;
-@footerColor: #2F443B;
+@footerColor: RGB(255, 0, 0);
 
 
 /* sizes */
@@ -30,7 +30,7 @@ Author: Barbara Orts
 @pHeadingMargin: 1em 0;
 @mBodyMargin: 0 1em;
 @tBodyMargin: 0 4%;
-@dBodyMargin: 0 3%;
+@dBodyMargin: 0.5em ;
 @olLiLeftMargin: 8px;
 
 @import "mixins.less";
@@ -65,6 +65,13 @@ header, footer {
   padding: 10px;
 }
 
+/* HERO IMAGE */
+
+.hero img{
+  width: 100%;
+  height: auto;
+}
+
 
 p {
   margin: @pHeadingMargin;
@@ -85,8 +92,12 @@ h2 {
 
 footer {
   #ace_mixins > .color(@footerColor);
-  margin: 10px;
+  margin: 10px 0 ;
   text-align: center;
+}
+
+.footer_bio {
+  font-size: 0.8em;
 }
 
 /* SMALL IMG GALLERY _ STATIC _ GRID */
@@ -150,10 +161,10 @@ footer {
 
 /* MOBILE STYLES */
 
-@media only screen and (max-width: 480px) {
-
-
-}
+//@media only screen and (max-width: 480px) {
+//
+//
+//}
 
 /* TABLET STYLES */
 
