@@ -123,12 +123,12 @@ Author: Barbara Orts
         <h2>Heading 2 (4)</h2>
         <h3>Photo Gallery - decoration not JavaScript</h3>
         <div class="photoGallery">
-            <img class="image1" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
-            <img class="image2" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
-            <img class="image3" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
-            <img class="image4" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
-            <img class="image5" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
-            <img class="image6" src="images/ph_300x200.jpg" alt="Bill as a placeholder">
+            <img class="image1" src="images/squirrel_small.jpg" alt="placeholder">
+            <img class="image2" src="images/running2.jpg" alt="placeholder">
+            <img class="image3" src="images/placeholder_small.jpg" alt="placeholder">
+            <img class="image4" src="images/running1.jpg" alt="Bill as a placeholder">
+            <img class="image5" src="images/running2.jpg" alt="Bill as a placeholder">
+            <img class="image6" src="images/placeholder_small.jpg" alt="Bill as a placeholder">
         </div>
     </section>
 

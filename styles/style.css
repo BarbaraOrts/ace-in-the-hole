@@ -3,103 +3,69 @@ File Name: styles.less
 Date: 07/10/20
 Author: Barbara Orts
 */
-
 /* VARIABLES */
-
 /* colors */
-
-@baseColor: #F5F5F5;
-@mBgColor: @baseColor;
-@tBgColor: #DBDBDB;
-@dBgColor: #DBDBDB;
-@footerColor: RGB(255, 0, 0);
-
-
 /* sizes */
-
-@mFontSize: 16px;
-@tFontSize: 16px;
-@dFontSize: 18px;
-@h1FontSize: 2em;
-@h2FontSize: 1.3em;
-@h3FontSize: 1.2em;
-
-
 /* margins */
-
-@pHeadingMargin: 1em 0;
-@mBodyMargin: 0 1em;
-@tBodyMargin: 0 4%;
-@dBodyMargin: 0.5em ;
-@olLiLeftMargin: 8px;
-
-@import "mixins.less";
-
+/*
+File Name: mixins.less
+Date: 7/10/20
+Author: Barbara Orts
+*/
+/* MIXINS */
 /* GENERAL STYLES */
-
-body, html {
+body,
+html {
   height: 100%;
   line-height: 1.5em;
 }
-
 body {
   display: grid;
   font-family: 'Roboto', sans-serif;
-  #ace_mixins > .commonProperties (@mBgColor, @mFontSize, @mBodyMargin);
+  background-color: #F5F5F5;
+  font-size: 16px;
+  margin: 0 1em;
 }
-
 header {
   display: grid;
-    }
-
-header, footer {
+}
+header,
+footer {
   grid-column-start: 1;
   grid-column-end: 4;
 }
-
 #logotype {
   width: 100%;
   height: auto;
   margin: 10px;
-  }
-
+}
 /* HERO IMAGE */
-
-.hero img{
+.hero img {
   width: 100%;
   height: auto;
 }
-
-
 p {
-  margin: @pHeadingMargin;
+  margin: 1em 0;
 }
-
 h1 {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: bold;
-  #ace_mixins > .size(@h1FontSize);
+  font-size: 2em;
 }
-
 h2 {
-  margin: @pHeadingMargin;
+  margin: 1em 0;
   font-weight: bold;
-  #ace_mixins > .size(@h2FontSize);
+  font-size: 1.3em;
 }
-
-
 footer {
-  #ace_mixins > .color(@footerColor);
+  color: #ff0000;
   margin: 10px 0 ;
   text-align: center;
 }
-
 .footer_bio {
   font-size: 0.8em;
 }
-
 /* SMALL IMG GALLERY _ STATIC _ GRID */
-
 .photoGallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -107,123 +73,98 @@ footer {
   grid-gap: 15px;
   margin: 1.5em;
 }
-
 .photoGallery img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 .image1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
-
 .image2 {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
 }
-
 .image3 {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 6;
 }
-
 .image4 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 6;
 }
-
 .image5 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 6;
   grid-row-end: 9;
 }
-
 .image6 {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
 }
-
-
 /* MOBILE STYLES */
-
-//@media only screen and (max-width: 480px) {
-//
-//
-//}
-
 /* TABLET STYLES */
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
   body {
-    #ace_mixins > .commonProperties(@tBgColor, @tFontSize, @tBodyMargin);
+    background-color: #DBDBDB;
+    font-size: 16px;
+    margin: 0 4%;
   }
-
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .col_one {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-
   .col_two {
     grid-column-start: 1;
     grid-column-end: 2;
     margin-right: 20px;
   }
-
   .col_three {
     grid-column-start: 2;
     grid-column-end: 3;
   }
-
   .col_four {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-
 }
-
-
 /* DESKTOP STYLES */
-
 @media only screen and (min-width: 1025px) {
-
   body {
-    #ace_mixins > .commonProperties(@dBgColor, @dFontSize, @dBodyMargin);
+    background-color: #DBDBDB;
+    font-size: 18px;
+    margin: 0.5em;
   }
-
   header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   header a {
     grid-column-start: 1;
     grid-column-end: 2;
   }
-
-  input, label, ul, div {
+  input,
+  label,
+  ul,
+  div {
     grid-column-start: 1;
     grid-column-end: 4;
   }
-
-
-
 }
+/*# sourceMappingURL=style.css.map */
