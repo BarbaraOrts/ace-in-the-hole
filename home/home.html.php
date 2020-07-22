@@ -23,6 +23,8 @@ Author: Barbara Orts
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,7 +34,17 @@ Author: Barbara Orts
 
 <header class="header">
 
-    <?php include 'includes/nav.inc.html.php'; ?>
+    <img id="logotype" class="logo" src="images/aith_logo.png" alt="Ace in the Hole Multisport Events logo image">
+    <nav>
+        <a href="#" class="menu-trigger">Menu</a>
+        <ul>
+            <li><a href="#home" target="_self">Home</a></li>
+            <li><a href="#about" target="_self">About</a></li>
+            <li><a href="#event" target="_self">Event</a></li>
+            <li><a href="#registration" target="_self">Registration</a></li>
+            <li><a href="#contact" target="_self">Contact</a></li>
+        </ul>
+    </nav>
 
     <div class="hero">
         <img src="images/hero_placeholder.jpg" alt="Ace in the Hole Multisport Event Hero image">
@@ -43,7 +55,7 @@ Author: Barbara Orts
 <main>
 
     <section id="section_one" class="col_one">
-        <h2>Heading 2 (1)</h2>
+        <h2>Section 1 </h2>
         <p>Catasstrophe kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i
             look
             cute? suddenly go on wild-eyed crazy rampage for why use post when this sofa is here russian blue and
@@ -62,7 +74,7 @@ Author: Barbara Orts
     </section>
 
     <section class="col_two">
-        <h2>Heading 2 (2)</h2>
+        <h2>Section 2 </h2>
         <p>On human they not getting up ever, licks your face. Spot something, big eyes, big eyes, crouch, shake
             butt,
             prepare to pounce. Bite plants damn that dog . Roll on the floor purring your whiskers off when owners
@@ -91,7 +103,7 @@ Author: Barbara Orts
     </section>
 
     <section class="col_three">
-        <h2>Heading 2 (3)</h2>
+        <h2>Section 3</h2>
         <p>On human they not getting up ever, licks your face. Spot something, big eyes, big eyes, crouch, shake
             butt,
             prepare to pounce. Bite plants damn that dog . Roll on the floor purring your whiskers off when owners
@@ -120,7 +132,7 @@ Author: Barbara Orts
     </section>
 
     <section class="col_four">
-        <h2>Heading 2 (4)</h2>
+        <h2>Section 4</h2>
         <h3>Photo Gallery - decoration not JavaScript</h3>
         <div class="photoGallery">
             <img class="image1" src="images/squirrel_small.jpg" alt="placeholder">
@@ -135,6 +147,6 @@ Author: Barbara Orts
 </main>
 
 <?php include 'includes/footer.inc.html.php'; ?>
-
+<script src="scripts/navigation.js"></script>
 </body>
 </html>

@@ -20,32 +20,22 @@ html {
   line-height: 1.5em;
 }
 body {
-  display: grid;
   font-family: 'Roboto', sans-serif;
   background-color: #F5F5F5;
   font-size: 16px;
-  margin: 0 1em;
-}
-header {
-  display: grid;
-}
-header,
-footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  margin: 0.3em 0;
 }
 #logotype {
-  width: 100%;
+  max-width: 100%;
+  width: 500px;
   height: auto;
-  margin: 10px;
 }
-/* HERO IMAGE */
-.hero img {
-  width: 100%;
-  height: auto;
+main {
+  background-color: white;
+  padding: 10px;
 }
 p {
-  margin: 1em 0;
+  margin: 0.5em 0.5em;
 }
 h1 {
   font-family: 'Nanum Gothic', sans-serif;
@@ -53,17 +43,28 @@ h1 {
   font-size: 2em;
 }
 h2 {
-  margin: 1em 0;
+  margin: 0.6em 0.5em;
   font-weight: bold;
   font-size: 1.3em;
+  color: #ff0000;
+}
+h3 {
+  margin: 0.6em 0.5em;
 }
 footer {
   color: #ff0000;
   margin: 10px 0 ;
   text-align: center;
+  background-color: white;
 }
 .footer_bio {
   font-size: 0.8em;
+  padding: 5px;
+}
+/* HERO IMAGE */
+.hero img {
+  width: 100%;
+  height: auto;
 }
 /* SMALL IMG GALLERY _ STATIC _ GRID */
 .photoGallery {
@@ -71,7 +72,8 @@ footer {
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
-  margin: 1.5em;
+  margin: 15px;
+  padding: 20px;
 }
 .photoGallery img {
   height: 100%;
@@ -120,9 +122,10 @@ footer {
   body {
     background-color: #DBDBDB;
     font-size: 16px;
-    margin: 0 4%;
+    margin: 0.3em 0;
   }
   main {
+    margin: 0.5em 1 em;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -149,22 +152,10 @@ footer {
   body {
     background-color: #DBDBDB;
     font-size: 18px;
-    margin: 0.5em;
+    margin: 0.3em 0;
   }
-  header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  header a {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  input,
-  label,
-  ul,
-  div {
-    grid-column-start: 1;
-    grid-column-end: 4;
+  main {
+    margin: 0.5em 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
