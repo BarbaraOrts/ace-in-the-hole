@@ -16,7 +16,7 @@ Author: Barbara Orts
     <meta name="description" content="Ace in the Hole Multisport Events website">
 
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
-    <link rel="stylesheet" href="styles/navigation.css" type="text/css">
+    <link rel="stylesheet/less" href="styles/navigation.less" type="text/css">
     <link rel="stylesheet/less" href="styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">

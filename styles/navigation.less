@@ -1,0 +1,39 @@
+nav {
+  width: 100%;
+  background-color:white;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav a {
+  color:RGB(255,0,0);
+  display:block;
+  text-decoration: none;
+  padding:20px 20px;
+}
+
+nav a:hover {
+  background: #ff0000;
+  color: white;
+}
+
+.menu-trigger {
+  display:none;
+  color: white;
+  background-color: #333333;
+}
+
+@media screen and (max-width:1024px) {
+  .menu-trigger {
+    display:block;
+  }
+  nav ul li {
+    display:block;
+    border-top:1px #79896D solid;
+  }
+  nav ul {
+    display:none;
+  }
+}
