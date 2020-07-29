@@ -39,24 +39,8 @@ Author: Barbara Orts
 <main>
 
     <section id="section_one" class="col_one">
-        <h2>Success!</h2>
-        <p>Your registration has been submitted. Happy Training and we will see you at the start line!
-        </p>
-        <p> Events registered for:<br>
-            Saturday: <?php echo htmlspecialchars($saturday, ENT_QUOTES, 'UTF-8'); ?><br>
-            Sunday: <?php echo htmlspecialchars($sunday, ENT_QUOTES, 'UTF-8'); ?>
-        </p>
-        <p>
-            Name: <?php echo htmlspecialchars($fullname, ENT_QUOTES, 'UTF-8'); ?><br>
-            Role: <?php echo htmlspecialchars($role, ENT_QUOTES, 'UTF-8'); ?><br>
-            DOB: <?php echo htmlspecialchars($DOB, ENT_QUOTES, 'UTF-8'); ?><br>
-            Gender: <?php echo htmlspecialchars($gender, ENT_QUOTES, 'UTF-8'); ?><br>
-            Email: <?php echo htmlspecialchars($email, ENT_QUOTES, 'UTF-8'); ?><br>
-            Phone: <?php echo htmlspecialchars($phone, ENT_QUOTES, 'UTF-8'); ?><br>
-            Emergency Contact: <?php echo htmlspecialchars($ername, ENT_QUOTES, 'UTF-8'); ?><br>
-            Emergency Contact phone: <?php echo htmlspecialchars($erphone, ENT_QUOTES, 'UTF-8'); ?><br>
-            T-shirt Size requested: <?php echo htmlspecialchars($tshirtsize, ENT_QUOTES, 'UTF-8'); ?><br>
-            Special Requests: <?php echo htmlspecialchars($specialreqs, ENT_QUOTES, 'UTF-8'); ?><br>
+        <h2>Thank you!<br></h2>
+        <p>A member of our team will be in touch shortly.
         </p>
     </section>
 

@@ -7,7 +7,7 @@
         <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
         <li><a href="#about" target="_self">About</a></li>
         <li><a href="#event" target="_self">Event</a></li>
-        <li><a href="#registration" target="_self">Registration</a></li>
-        <li><a href="#contact" target="_self">Contact</a></li>
+        <li><a href="<?php echo BASE_URL; ?>registration">Registration</a></li>
+        <li><a href="<?php echo BASE_URL; ?>contact">Contact</a></li>
     </ul>
 </nav>

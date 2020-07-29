@@ -19,6 +19,8 @@ if (isset($_POST['fullname'])) {
 
     $fullname = $_POST['fullname'];
     $role = $_POST['role'];
+    $saturday = $_POST['saturday'];
+    $sunday = $_POST['sunday'];
     $DOB = $_POST['dob'];
     $gender = $_POST['gender'];
     $email = $_POST['email'];
@@ -33,6 +35,8 @@ if (isset($_POST['fullname'])) {
             
             registration_fullname = :registration_fullname,
             registration_role = :registration_role,
+            registration_saturday = :registration_saturday,
+            registration_sunday = :registration_sunday,
             registration_DOB = :registration_DOB,
             registration_gender = :registration_gender,
             registration_email = :registration_email,
@@ -45,6 +49,8 @@ if (isset($_POST['fullname'])) {
         $s = $pdo->prepare($sql);
         $s->bindValue(':registration_fullname', $fullname);
         $s->bindValue(':registration_role', $role);
+         $s->bindValue(':registration_saturday', $saturday);
+         $s->bindValue(':registration_sunday', $sunday);
         $s->bindValue(':registration_DOB', $DOB);
         $s->bindValue(':registration_gender', $gender);
         $s->bindValue(':registration_email', $email);

@@ -66,7 +66,25 @@ Author: Barbara Orts
                     <option value="" disabled selected>Choose role</option>
                     <option value="athlete">Athlete</option>
                     <option value="volunteer">Volunteer</option>
+                </select>
 
+                <label for="saturday">Select the Saturday event you wish to participate in:</label>
+                <select name="saturday" id="saturday">
+                    <option value="">Select</option>
+                    <option value="None">None</option>
+                    <option value="Long Course Triathlon">Long Course Triathlon $240</option>
+                    <option value="Olympic Triathlon">Olympic Triathlon $110</option>
+                    <option value="10K">10K $50</option>
+                    <option value="Half Marathon">Half Marathon $75</option>
+                </select>
+
+                <label for="sunday">Select the Saturday event you wish to participate in:</label>
+                <select name="sunday" id="sunday">
+                    <option value="">Select</option>
+                    <option value="None">None</option>
+                    <option value="Sprint Triathlon">Sprint Triathlon $90</option>
+                    <option value="Try-a-Tri">Try-a-Tri $65</option>
+                    <option value="Splash n Dash">Splash n Dash FREE if an adult registers with the child or $25</option>
                 </select>
 
                 <label for="dob">* Date of Birth:</label>
