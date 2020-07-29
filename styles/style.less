@@ -158,6 +158,52 @@ footer {
   grid-row-end: 9;
 }
 
+/* Forms */
+
+form {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 30px;
+  background-color: #FFE5E5;
+  margin: 50px auto;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px ;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  font-size: 1em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  font-size: 1em;
+}
+
+::placeholder {
+  font-size: 1em;
+}
+
+input[type=submit] {
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
 
 /* MOBILE STYLES */
 
@@ -217,6 +263,8 @@ footer {
   main {
     margin: @desktopMainMargin;
   }
+
+
 
 
 }
