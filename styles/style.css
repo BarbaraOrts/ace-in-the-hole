@@ -17,18 +17,21 @@ Author: Barbara Orts
 body,
 html {
   height: 100%;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #F5F5F5;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0.3em 0;
 }
 #logotype {
-  max-width: 100%;
-  width: 500px;
-  height: auto;
+  width: 100%;
+  max-width: 270px;
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 main {
   background-color: white;
@@ -51,8 +54,12 @@ h2 {
 h3 {
   margin: 0.6em 0.5em;
 }
+section {
+  padding: 5px;
+  margin: 5px;
+}
 footer {
-  color: #ff0000;
+  color: black;
   margin: 10px 0 ;
   text-align: center;
   background-color: white;
@@ -60,12 +67,6 @@ footer {
 .footer_bio {
   font-size: 0.8em;
   padding: 5px;
-}
-ul.socials img {
-  padding: 5px;
-  margin: 10px;
-  width: 46px;
-  height: 46px;
 }
 ul.socials {
   margin: 0;
@@ -75,11 +76,39 @@ ul.socials li {
   display: inline-block;
   margin: 10px 10px;
 }
-/* HERO IMAGE */
+ul.start {
+  text-align: center;
+}
+ul.start_times li {
+  list-style: inside circle;
+  padding: 5px;
+}
+.rego_button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF6666;
+  color: white;
+  margin: 20px auto;
+}
+.rego_button:hover {
+  background-color: lightgrey;
+  color: #ff0000;
+}
+/* IMAGES */
 .hero img {
   width: 100%;
   display: block;
   height: auto;
+}
+img.social_icon {
+  padding: 5px;
+  margin: 10px;
+  width: 46px;
+  height: 46px;
 }
 /* SMALL IMG GALLERY _ STATIC _ GRID */
 .photoGallery {
@@ -174,17 +203,28 @@ input[type=submit] {
   cursor: pointer;
   font-size: 18px;
 }
-/* MOBILE STYLES */
 /* TABLET STYLES */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     background-color: #DBDBDB;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0.3em 0;
+  }
+  header {
+    background-color: white;
+  }
+  #logotype {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   main {
     margin: 0.5em 1 em;
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
   .col_one {
@@ -204,6 +244,10 @@ input[type=submit] {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  img.about_img {
+    text-align: center;
+    padding: 20px;
+  }
 }
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px) {
@@ -214,6 +258,30 @@ input[type=submit] {
   }
   main {
     margin: 0.5em 1em;
+  }
+  h2 {
+    text-align: center;
+  }
+  section {
+    margin: 25px 25px;
+  }
+  .rego_button {
+    display: block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6666;
+    color: white;
+    margin: 30px auto;
+  }
+  #logotype {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -36,7 +36,7 @@ Author: Barbara Orts
     <?php include '../includes/nav.inc.html.php'; ?>
 
     <div class="hero">
-        <img src="../images/hero_about_ace2.jpg" alt="Sally enjoying the 10k race in May 2018 in crutches">
+        <img src="../images/hero_about_ace2.jpg"  alt="Sally enjoying the 10k race in May 2018 in crutches">
     </div>
 
 </header>
@@ -45,50 +45,27 @@ Author: Barbara Orts
 
     <section id="section_one" class="col_one">
         <h2>About us </h2>
+        <p>We started back in 1995. A group of friends, enjoying the outdoors and training. After many informal races in
+            the Portland area, we decided to start Ace in the Hole Multisports Events. We love bringing people together
+            and we still enjoy the social aspect of the events we put out.
+        </p>
+    </section>
+
+
+    <section class="col_two">
+        <h2>Our Mission </h2>
         <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes
             and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every
             Body.</p>
     </section>
 
-    <section class="col_two">
-        <h2>JavaScript Photo Gallery </h2>
-        <p>
-        </p>
-    </section>
-
     <section class="col_three">
-        <h2>Follow us on Facebook and Twitter</h2>
-        <p>On human they not getting up ever, licks your face. Spot something, big eyes, big eyes, crouch, shake
-            butt,
-            prepare to pounce. Bite plants damn that dog . Roll on the floor purring your whiskers off when owners
-            are
-            asleep, cry for no apparent reason pretend you want to go out but then don't oooo! dangly balls! jump
-            swat
-            swing flies so sweetly to the floor crash move on wash belly nap walk on car leaving trail of paw prints
-            on
-            hood and windshield. Chill on the couch table lie in the sink all day shred all toilet paper and spread
-            around the house but slap kitten brother with paw for knock over christmas tree. Lick butt bird bird
-            bird
-            bird bird bird human why take bird out i could have eaten that yet cat cat moo moo lick ears lick paws,
-            so
-            sit in box for meow meow ooooh feather moving feather!. Sit on human they not getting up ever. Climb a
-            tree,
-            wait for a fireman jump to fireman then scratch his face. Find something else more interesting cat cat
-            moo
-            moo lick ears lick paws yet run in circles. I see a bird i stare at it i meow at it i do a wiggle come
-            here
-            birdy scream at teh bath attack the dog then pretend like nothing happened. Favor packaging over toy
-            taco
-            cat backwards spells taco cat jump up to edge of bath, fall in then scramble in a mad panic to get out
-            sleep
-            nap. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day.
-        </p>
+        <img src="../images/ace20.jpg" alt="A runner with an amazing background" class="about_img">
     </section>
 
     <section class="col_four">
-        <h2>Weather Forecast</h2>
+        <h2>Photo Gallery JS</h2>
         <p>
-            <?php include '../includes/weather.inc.html.php'; ?>
         </p>
 
     </section>

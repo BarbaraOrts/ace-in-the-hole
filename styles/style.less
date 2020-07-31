@@ -12,13 +12,13 @@ Author: Barbara Orts
 @mBgColor: @baseColor;
 @tBgColor: #DBDBDB;
 @dBgColor: #DBDBDB;
-@footerColor: RGB(255, 0, 0);
+@footerColor: black;
 
 
 /* sizes */
 
-@mFontSize: 16px;
-@tFontSize: 16px;
+@mFontSize: 18px;
+@tFontSize: 18px;
 @dFontSize: 18px;
 @h1FontSize: 2em;
 @h2FontSize: 1.3em;
@@ -39,7 +39,7 @@ Author: Barbara Orts
 
 body, html {
   height: 100%;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 body {
@@ -48,10 +48,13 @@ body {
 }
 
 #logotype {
-  max-width: 100%;
-  width: 500px;
-  height: auto;
-    }
+  width: 100%;
+  max-width: 270px;
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+      }
 
 main {
   background-color: white;
@@ -79,6 +82,11 @@ h3 {
   margin: @pMargin;
 }
 
+section {
+  padding: 5px;
+  margin: 5px;
+}
+
 
 footer {
   #ace_mixins > .color(@footerColor);
@@ -92,12 +100,7 @@ footer {
   padding: 5px;
 }
 
-ul.socials img {
-  padding: 5px;
-  margin: 10px;
-  width: 46px;
-  height: 46px;
-}
+
 
 ul.socials {
   margin: 0;
@@ -109,14 +112,50 @@ ul.socials li {
   margin: 10px 10px;
 }
 
+ul.start {
+  text-align: center;
+}
 
-/* HERO IMAGE */
+ul.start_times li {
+  list-style: inside circle;
+  padding: 5px;
+  }
+
+
+.rego_button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF6666;
+  color: white;
+  margin: 20px auto;
+}
+
+.rego_button:hover {
+  background-color: lightgrey;
+  color: #ff0000;
+}
+
+
+/* IMAGES */
 
 .hero img{
   width: 100%;
   display: block;
   height: auto;
 }
+
+img.social_icon {
+  padding: 5px;
+  margin: 10px;
+  width: 46px;
+  height: 46px;
+}
+
+
 
 /* SMALL IMG GALLERY _ STATIC _ GRID */
 
@@ -225,18 +264,6 @@ input[type=submit] {
 
 
 
-
-
-
-/* MOBILE STYLES */
-
-//@media only screen and (max-width: 480px) {
-//
-//
-//
-//
-//}
-
 /* TABLET STYLES */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -245,9 +272,23 @@ input[type=submit] {
     #ace_mixins > .commonProperties(@tBgColor, @tFontSize, @bodyMargin);
   }
 
+  header {
+    background-color: white;
+  }
+
+  #logotype {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   main {
     margin: @tabletMainMargin;
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -272,6 +313,11 @@ input[type=submit] {
     grid-column-end: 3;
   }
 
+  img.about_img {
+    text-align: center;
+    padding: 20px;
+  }
+
 
 }
 
@@ -288,7 +334,39 @@ input[type=submit] {
     margin: @desktopMainMargin;
   }
 
+  h2 {
+    text-align: center;
+  }
 
+  section {
+    margin: 25px 25px;
+  }
+
+  .rego_button {
+    display: block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6666;
+    color: white;
+    margin: 30px auto;
+  }
+
+  #logotype {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 10px;
+  }
+
+  img.about_img {
+    //text-align: center;
+    //padding: 10px;
+    //max-width: 900px;
+  }
 
 
 }

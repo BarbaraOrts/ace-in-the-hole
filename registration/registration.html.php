@@ -52,6 +52,18 @@ Author: Barbara Orts
     <section class="col_four">
         <h2>Registration Form </h2>
         <p>Required fields are marked with an asterisk (*).</p>
+        <p>Cost Includes:
+            <ul class="cost_includes">
+            <li>Food & Beer</li>
+            <li>Access to the weekend's live entertainment & Fitness Expo</li>
+            <li>Commemorative Finisher medal</li>
+            <li>Accurate Chip Timing for competitive races</li>
+            <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
+            <li>Post-event party & entertainment</li><br>
+
+            NOTE: Tech shirts guaranteed to pre-registered participants only.
+
+        </ul></p>
 
         <div id="registrationform">
             <form method="post" action=" ">

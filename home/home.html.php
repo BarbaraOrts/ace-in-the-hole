@@ -44,25 +44,19 @@ Author: Barbara Orts
 <main>
 
     <section id="section_one" class="col_one">
-        <h2>Section 1 </h2>
-        <p>Catasstrophe kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i
-            look
-            cute? suddenly go on wild-eyed crazy rampage for why use post when this sofa is here russian blue and
-            hide
-            from vacuum cleaner so please stop looking at your phone and pet me. Annoy the old grumpy cat, start a
-            fight
-            and then retreat to wash when i lose cats woo. Why must they do that annoy the old grumpy cat, start a
-            fight
-            and then retreat to wash when i lose making bread on the bathrobe. Let me in let me out let me in let me
-            out
-            let me in let me out who broke this door anyway human clearly uses close to one life a night no one naps
-            that long so i revive by standing on chestawaken! or bleghbleghvomit my furball really tie the room
-            together
-            nya nya nyan have a lot of grump in yourself because you can't forget to be grumpy and not be like king
-            grumpy cat. Groom yourself 4 hours - checked, have your beauty sleep 18 hours</p>
+        <h2>September 11th and 12th, 2020</h2>
+        <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running
+            community. It has become a traditional destination race for athletes from across the nation.
+
+            There is something for every level of athletic ability. The weekend includes a first timer triathlon, a
+            sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race
+            or come to compete to win, but make sure you come to have fun!</p>
+
+        <a href="<?php echo BASE_URL; ?>registration" class="rego_button">Registrations are still open!</a>
     </section>
 
     <section class="col_two">
+
         <h2>Weather Forecast</h2>
         <p>
             <?php include 'includes/weather.inc.html.php'; ?>
@@ -70,36 +64,29 @@ Author: Barbara Orts
     </section>
 
     <section class="col_three">
-        <h2>Section 3</h2>
-        <p>On human they not getting up ever, licks your face. Spot something, big eyes, big eyes, crouch, shake
-            butt,
-            prepare to pounce. Bite plants damn that dog . Roll on the floor purring your whiskers off when owners
-            are
-            asleep, cry for no apparent reason pretend you want to go out but then don't oooo! dangly balls! jump
-            swat
-            swing flies so sweetly to the floor crash move on wash belly nap walk on car leaving trail of paw prints
-            on
-            hood and windshield. Chill on the couch table lie in the sink all day shred all toilet paper and spread
-            around the house but slap kitten brother with paw for knock over christmas tree. Lick butt bird bird
-            bird
-            bird bird bird human why take bird out i could have eaten that yet cat cat moo moo lick ears lick paws,
-            so
-            sit in box for meow meow ooooh feather moving feather!. Sit on human they not getting up ever. Climb a
-            tree,
-            wait for a fireman jump to fireman then scratch his face. Find something else more interesting cat cat
-            moo
-            moo lick ears lick paws yet run in circles. I see a bird i stare at it i meow at it i do a wiggle come
-            here
-            birdy scream at teh bath attack the dog then pretend like nothing happened. Favor packaging over toy
-            taco
-            cat backwards spells taco cat jump up to edge of bath, fall in then scramble in a mad panic to get out
-            sleep
-            nap. Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day.
-        </p>
+        <h2>Starting times </h2>
+
+        <ul class="start">
+            <li>Saturday</li>
+                <ul class="start_times">
+                    <li>Long Course Triathlon: 7:00 AM</li>
+                    <li>Olympic Triathlon: 7:30 AM</li>
+                    <li>10K: 7:15 AM</li>
+                    <li>Half Marathon: 7:15 AM</li>
+                </ul><br>
+
+            <li>Sunday</li>
+                <ul class="start_times">
+                    <li>Sprint Triathlon: 8:00 AM</li>
+                    <li>Try-a-Tri: 8:20 AM</li>
+                    <li>Splash n Dash: 12:00 PM</li>
+                </ul>
+        </ul>
+
     </section>
 
     <section class="col_four">
-        <h2>Section 4</h2>
+        <h2>We share a passion for running, swimming and biking!</h2>
         <div class="photoGallery">
             <img class="image1" src="images/running1.jpg" alt="placeholder">
             <img class="image2" src="images/running2.jpg" alt="placeholder">
