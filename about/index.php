@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
 <!--
-File Name: home.html.php
-Date: 7/10/20
+File Name: index.php
+Date: 7/30/20
 Author: Barbara Orts
 -->
 
 <html lang="en">
 <head>
-    <title>Ace in the Hole Multisport Events</title>
+    <title>Ace in the Hole Multisport Events - About us</title>
 
     <meta charset="utf-8">
     <meta name="author" content="Barbara Orts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ace in the Hole Multisport Events website">
 
-    <link rel="stylesheet" href="styles/reset.css" type="text/css">
-    <link rel="stylesheet/less" href="styles/navigation.less" type="text/css">
-    <link rel="stylesheet/less" href="styles/style.less" type="text/css">
+    <link rel="stylesheet" href="../styles/reset.css" type="text/css">
+    <link rel="stylesheet/less" href="../styles/navigation.less" type="text/css">
+    <link rel="stylesheet/less" href="../styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
 
@@ -33,10 +33,10 @@ Author: Barbara Orts
 <body>
 
 <header class="header">
-    <?php include 'includes/nav.inc.html.php'; ?>
+    <?php include '../includes/nav.inc.html.php'; ?>
 
     <div class="hero">
-        <img src="images/ace4.jpg" alt="Happy runners in the Great Ocean Road Marathon 2018">
+        <img src="../images/hero_about_ace2.jpg" alt="Sally enjoying the 10k race in May 2018 in crutches">
     </div>
 
 </header>
@@ -44,33 +44,20 @@ Author: Barbara Orts
 <main>
 
     <section id="section_one" class="col_one">
-        <h2>Section 1 </h2>
-        <p>Catasstrophe kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i
-            look
-            cute? suddenly go on wild-eyed crazy rampage for why use post when this sofa is here russian blue and
-            hide
-            from vacuum cleaner so please stop looking at your phone and pet me. Annoy the old grumpy cat, start a
-            fight
-            and then retreat to wash when i lose cats woo. Why must they do that annoy the old grumpy cat, start a
-            fight
-            and then retreat to wash when i lose making bread on the bathrobe. Let me in let me out let me in let me
-            out
-            let me in let me out who broke this door anyway human clearly uses close to one life a night no one naps
-            that long so i revive by standing on chestawaken! or bleghbleghvomit my furball really tie the room
-            together
-            nya nya nyan have a lot of grump in yourself because you can't forget to be grumpy and not be like king
-            grumpy cat. Groom yourself 4 hours - checked, have your beauty sleep 18 hours</p>
+        <h2>About us </h2>
+        <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes
+            and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every
+            Body.</p>
     </section>
 
     <section class="col_two">
-        <h2>Weather Forecast</h2>
+        <h2>JavaScript Photo Gallery </h2>
         <p>
-            <?php include 'includes/weather.inc.html.php'; ?>
         </p>
     </section>
 
     <section class="col_three">
-        <h2>Section 3</h2>
+        <h2>Follow us on Facebook and Twitter</h2>
         <p>On human they not getting up ever, licks your face. Spot something, big eyes, big eyes, crouch, shake
             butt,
             prepare to pounce. Bite plants damn that dog . Roll on the floor purring your whiskers off when owners
@@ -99,20 +86,16 @@ Author: Barbara Orts
     </section>
 
     <section class="col_four">
-        <h2>Section 4</h2>
-        <div class="photoGallery">
-            <img class="image1" src="images/running1.jpg" alt="placeholder">
-            <img class="image2" src="images/running2.jpg" alt="placeholder">
-            <img class="image3" src="images/image3_ace1.jpg" alt="placeholder">
-            <img class="image4" src="images/ace16.jpg" alt="Bill as a placeholder">
-            <img class="image5" src="images/image5_ace5.jpg" alt="Bill as a placeholder">
-            <img class="image6" src="images/ace10.jpg" alt="Bill as a placeholder">
-        </div>
+        <h2>Weather Forecast</h2>
+        <p>
+            <?php include '../includes/weather.inc.html.php'; ?>
+        </p>
+
     </section>
 
 </main>
 
-<?php include 'includes/footer.inc.html.php'; ?>
-<script src="scripts/navigation.js"></script>
+<?php include '../includes/footer.inc.html.php'; ?>
+<script src="../scripts/navigation.js"></script>
 </body>
 </html>

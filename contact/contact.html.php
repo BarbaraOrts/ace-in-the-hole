@@ -8,7 +8,7 @@ Author: Barbara Orts
 
 <html lang="en">
 <head>
-    <title>Ace in the Hole Multisport Events</title>
+    <title>Ace in the Hole Multisport Events - Contact</title>
 
     <meta charset="utf-8">
     <meta name="author" content="Barbara Orts">
