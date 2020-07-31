@@ -87,8 +87,8 @@ Author: Barbara Orts
                     <option value="Splash n Dash">Splash n Dash FREE if an adult registers with the child or $25</option>
                 </select>
 
-                <label for="dob">* Date of Birth:</label>
-                <input type="date" name="dob" id="dob" required>
+                <label for="age">* Age:</label>
+                <input type="text" name="age" id="age" required>
 
                 <label for="gender">* Gender Identification:</label>
                 <select name="gender" id="gender" required>
@@ -120,11 +120,12 @@ Author: Barbara Orts
                     <option value="Large">Large</option>
                     <option value="X-Large">X-Large</option>
                     <option value="XX-Large">XX-Large</option>
+                </select>
 
-                    <label for="specialreqs">* Special Requests or accommodations:</label>
-                    <textarea name="specialreqs" id="specialreqs" rows="4" cols="20"></textarea>
+                <label for="specialreqs">* Special Requests or accommodations:</label>
+                <textarea name="specialreqs" id="specialreqs" rows="4" cols="20"></textarea>
 
-                    <input id="submit" type="submit" value="Submit">
+                <input id="submit" type="submit" value="Submit">
             </form>
         </div>
     </section>
