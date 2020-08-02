@@ -17,6 +17,7 @@ Author: Barbara Orts
 
     <link rel="stylesheet" href="../styles/reset.css" type="text/css">
     <link rel="stylesheet/less" href="../styles/navigation.less" type="text/css">
+    <link rel="stylesheet/less" href="../styles/forms.less" type="text/css">
     <link rel="stylesheet/less" href="../styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
@@ -25,7 +26,8 @@ Author: Barbara Orts
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 
 </head>
@@ -40,32 +42,32 @@ Author: Barbara Orts
 
     <section id="section_one" class="col_one">
         <h2>Ready to be part in our event?</h2>
-        <p>Catasstrophe kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i
-            look
-            cute? suddenly go on wild-eyed crazy rampage for why use post when this sofa is here russian blue and
-            hide
-            from vacuum cleaner so please stop looking at your phone and pet me. Annoy the old grumpy cat, start a
-            fight
+        <p>Complete the Registration form below. Please note that all packet pick up will occur at Why Worry Racing, 123
+            NW Everett, Portland OR. Packet pick up hours:
+            Thursday 8-5, Friday 9-noon. No day of event packet pick up. Make sure you have reviewed all the information
+            in our <a class="inside_link" href="<?php echo BASE_URL; ?>event">Event</a> section.
         </p>
-    </section>
 
-    <section class="col_four">
-        <h2>Registration Form </h2>
-        <p>Required fields are marked with an asterisk (*).</p>
-        <p>Cost Includes:
-            <ul class="cost_includes">
+            <ul class="cost">Cost includes:</ul><br>
             <li>Food & Beer</li>
             <li>Access to the weekend's live entertainment & Fitness Expo</li>
             <li>Commemorative Finisher medal</li>
             <li>Accurate Chip Timing for competitive races</li>
             <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
-            <li>Post-event party & entertainment</li><br>
+            <li>Post-event party & entertainment</li>
+            <br>
 
             NOTE: Tech shirts guaranteed to pre-registered participants only.
 
-        </ul></p>
+            </ul>
 
-        <div id="registrationform">
+    </section>
+
+    <section class="col_four">
+        <h2>Registration Form </h2>
+        <p>Required fields are marked with an asterisk (*).</p>
+
+         <div id="registrationform">
             <form method="post" action=" ">
 
                 <input type="hidden" name="honeypot" id="honeypot" value="">
@@ -96,7 +98,8 @@ Author: Barbara Orts
                     <option value="None">None</option>
                     <option value="Sprint Triathlon">Sprint Triathlon $90</option>
                     <option value="Try-a-Tri">Try-a-Tri $65</option>
-                    <option value="Splash n Dash">Splash n Dash FREE if an adult registers with the child or $25</option>
+                    <option value="Splash n Dash">Splash n Dash FREE if an adult registers with the child or $25
+                    </option>
                 </select>
 
                 <label for="age">* Age:</label>
@@ -140,6 +143,10 @@ Author: Barbara Orts
                 <input id="submit" type="submit" value="Submit">
             </form>
         </div>
+    </section>
+
+    <section class="center_para">
+        <img class="rego_photo" src="../images/ace12.jpg" alt="bike riders peloton in race"
     </section>
 
 

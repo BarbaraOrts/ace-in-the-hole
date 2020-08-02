@@ -17,6 +17,7 @@ Author: Barbara Orts
 
     <link rel="stylesheet" href="../styles/reset.css" type="text/css">
     <link rel="stylesheet/less" href="../styles/navigation.less" type="text/css">
+    <link rel="stylesheet/less" href="../styles/forms.less" type="text/css">
     <link rel="stylesheet/less" href="../styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
@@ -41,16 +42,18 @@ Author: Barbara Orts
 
 </header>
 
-<main>
+<main class="event_page">
 
     <section id="section_one" class="col_one">
         <h2>About the event </h2>
         <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running
-            community. It has become a traditional destination race for athletes from across the nation.
+            community. It has become a traditional destination race for athletes from across the nation.<br>
 
-            There is something for every level of athletic ability. The weekend includes a first timer triathlon, a
+            There is something for every level of athletic ability. The weekend includes: a first timer triathlon, a
             sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race
-            or come to compete to win, but make sure you come to have fun!</p>
+            or come to compete to win, but make sure you come to have fun!</p></section>
+
+    <section class="col_two">
         <h2>Course details</h2>
         <p>WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday and the
             morning of the race. Wetsuits are recommended.
@@ -93,51 +96,112 @@ Author: Barbara Orts
             wide, perfectly paved and wind around through the forest. Each course has only two small hills with a
             minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.
 
-            Splash n' Dash: Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is
-            free if an adult registers for an event otherwise it is $25</p>
+            Splash n' Dash: Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. </p>
 
     </section>
 
-    <section class="col_two">
+    <section class="col_three">
         <h2>What to bring</h2>
         <p>You must wear your chip timing piece during the entire event. You will be given a band that will hold your
             chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure
             to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after
             each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit
-            otherwise, you will have a very difficult time getting off your wet suit.
+            otherwise, you will have a very difficult time getting off your wet suit.</p>
+        <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
 
-            Swim: Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for
-            no wetsuit for a triathlon so no worries. We will provide you with a swim cap but you will want to bring
-            your own goggles.
+        <p>check out the requirements below:</p>
 
-            Bike: A biking helmet is mandatory. You will also receive 2 stickers in your package with your race number
-            on them. The small sticker should go on the front of your helmet. The bigger sticker will wrap around your
-            bike frame. Road or mountain bikes are acceptable. For safety reasons, be sure to have end-caps on the end
-            of your handle-bars.
 
-            Run: You must finish the race with your bib number on the front of you. Some people choose to pin it on at
-            the beginning of the race and have it on for the whole event so they don't have to worry about it. Others
-            pin it on a singlet that they put on once they finish the swim before they head out for the bike. Others use
-            an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for
-            the run. Use whatever option feels best for you.
+        <dl>
 
-            Remember to bring a change of clothing so you can enjoy the post-event festivities.
-        </p>
+            <dt>Swim</dt>
+            <dd>
+                <p>Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for
+                    no wetsuit for a triathlon so no worries. We will provide you with a swim cap but you will want to
+                    bring your own goggles.</p>
+            </dd>
+
+            <dt>Bike</dt>
+            <dd>
+                <p>A biking helmet is mandatory. You will also receive 2 stickers in your package with your race number
+                    on them. The small sticker should go on the front of your helmet. The bigger sticker will wrap
+                    around your bike frame. Road or mountain bikes are acceptable. For safety reasons, be sure to have
+                    end-caps on the end of your handle-bars.</p>
+            </dd>
+
+            <dt>Run</dt>
+            <dd>
+                <p>You must finish the race with your bib number on the front of you. Some people choose to pin it on at
+                    the beginning of the race and have it on for the whole event so they don't have to worry about it.
+                    Others pin it on a singlet that they put on once they finish the swim before they head out for the
+                    bike. Others use an elastic racing strap that they pin their bib number to and then quickly strap it
+                    on before they leave for the run. Use whatever option feels best for you.</p>
+            </dd>
+
+
+        </dl>
 
     </section>
 
-    <section class="col_three">
-        <h2>Packet pick up</h2>
-        <p> All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours:
-            Thursday 8-5, Friday 9-noon. No day of event packet pick up.
-        </p>
+    <section class="col_four">
         <h2>Watch the weather closely. The show goes on no matter what the weather is doing.</h2>
         <p><?php include '../includes/weather.inc.html.php'; ?></p>
     </section>
 
-    <section class="col_four">
+    <section class="col_five">
         <h2>FAQ</h2>
-        <h3>Frequently asked questions</h3>
+        <dl>
+
+            <dt>What are the Rules?</dt>
+            <dd>
+                <p>We currently adhere to the USAT Rules for Triathlon & Duathlon. Important rules include no drafting,
+                    you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety
+                    reasons.</p>
+            </dd>
+
+            <dt>Can I use a personal music device while cycling?</dt>
+            <dd>
+                <p>Absolutely no music devices are allowed during the bike segment for obvious safety risks and will
+                    result in immediate disqualification.</p>
+            </dd>
+
+            <dt>Can I use a personal music device while running?</dt>
+            <dd>
+                <p>During any running segments, we prefer for athletes to NOT use music devices to maximize safety,
+                    assure a fair competitive environment and assure athletes can hear all course marshal instructions.
+                    With that said, we also understand that many athletes rely on music to help endure the challenge of
+                    running. To accommodate the needs of our athletes while still assuring maximum safety and a fair,
+                    competitive environment, here is the arrangement that we can accommodate:</p>
+                <ul>
+                    <li>If you chose to use a personal music device, you must always keep one ear open for instructions
+                        so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not
+                        be eligible for awards, points and rankings. So as an athlete, you have to make a choice - music
+                        or awards/points/rankings.
+                    </li>
+                    <li>If you are using a personal music devise with two earbuds, you will be immediately disqualified.
+                        Trust us, we don't want to have to enforce a disqualification but in order to assure the safety
+                        of all athletes, this is a very important rule.
+                    </li>
+                    <li>We also request that if you chose to use a personal music device that you keep the volume to a
+                        minimum to assure all instructions can be heard.
+                    </li>
+                </ul>
+            </dd>
+
+            <dt>Do I need to wear a wetsuit?</dt>
+            <dd>
+                <p>No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear
+                    a wetsuit because of the buoyancy and warmth factor.</p>
+            </dd>
+
+            <dt>Do I have to use a road or racing bike?</dt>
+            <dd>
+                <p>No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the
+                    end of your handlebars.
+                </p>
+            </dd>
+
+        </dl>
 
     </section>
 
@@ -145,6 +209,7 @@ Author: Barbara Orts
 
 <?php include '../includes/footer.inc.html.php'; ?>
 <script src="../scripts/navigation.js"></script>
+<script src="../scripts/faq.js"></script>
 </body>
 </html>
 

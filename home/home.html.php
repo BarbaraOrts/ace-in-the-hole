@@ -17,6 +17,7 @@ Author: Barbara Orts
 
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
     <link rel="stylesheet/less" href="styles/navigation.less" type="text/css">
+    <link rel="stylesheet/less" href="styles/forms.less" type="text/css">
     <link rel="stylesheet/less" href="styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
@@ -36,7 +37,7 @@ Author: Barbara Orts
     <?php include 'includes/nav.inc.html.php'; ?>
 
     <div class="hero">
-        <img src="images/ace4.jpg" alt="Happy runners in the Great Ocean Road Marathon 2018">
+        <img src="images/ace4.jpg" alt="Swimmers at a triathlon jumping in the water">
     </div>
 
 </header>
@@ -55,7 +56,7 @@ Author: Barbara Orts
         <a href="<?php echo BASE_URL; ?>registration" class="rego_button">Registrations are still open!</a>
     </section>
 
-    <section class="col_two">
+    <section class="col_two center_para">
 
         <h2>Weather Forecast</h2>
         <p>
@@ -63,7 +64,7 @@ Author: Barbara Orts
         </p>
     </section>
 
-    <section class="col_three">
+    <section class="col_three home_box">
         <h2>Starting times </h2>
 
         <ul class="start">

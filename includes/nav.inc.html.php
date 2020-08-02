@@ -1,6 +1,9 @@
 <?php define('BASE_URL' , '/cas222/template/'); ?>
 
-<img id="logotype" class="logo" src="<?php echo BASE_URL; ?>images/aith_logo.png" alt="Ace in the Hole Multisport Events logo image">
+
+
+<a href="<?php echo BASE_URL; ?>"><img id="logotype" class="logo" src="<?php echo BASE_URL; ?>images/aith_logo.png" alt="Ace in the Hole Multisport Events logo image"></a>
+
 <nav>
     <a href="#" class="menu-trigger">Menu</a>
     <ul>

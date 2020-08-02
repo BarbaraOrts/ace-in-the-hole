@@ -17,6 +17,7 @@ Author: Barbara Orts
 
     <link rel="stylesheet" href="../styles/reset.css" type="text/css">
     <link rel="stylesheet/less" href="../styles/navigation.less" type="text/css">
+    <link rel="stylesheet/less" href="../styles/forms.less" type="text/css">
     <link rel="stylesheet/less" href="../styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
@@ -59,7 +60,7 @@ Author: Barbara Orts
             Body.</p>
     </section>
 
-    <section class="col_three">
+    <section class="col_three center_para">
         <img src="../images/ace20.jpg" alt="A runner with an amazing background" class="about_img">
     </section>
 
