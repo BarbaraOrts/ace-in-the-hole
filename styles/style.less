@@ -100,6 +100,11 @@ a.inside_link {
   margin-left: 20px;
   }
 
+ul.faq {
+  list-style: inside circle;
+  margin: 20px;
+}
+
 
 footer {
   #ace_mixins > .color(@footerColor);
@@ -172,13 +177,8 @@ img.social_icon {
   height: 46px;
 }
 
-img.rego_photo {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
 
-img.about_img {
+img.about_img, img.rego_photo, img.contact_img {
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -311,10 +311,6 @@ dt.open:hover:before {
 }
 
 
-
-
-
-
 /* MOBILE ONLY STYLES */
 @media only screen and (min-width: 320px) and (max-width: 765px) {
 
@@ -323,6 +319,8 @@ dt.open:hover:before {
   }
 
 }
+
+
 
 /* TABLET STYLES */
 
@@ -410,10 +408,12 @@ iframe {
     margin: 30px 20%;
   }
 
-  iframe {
+  iframe.map {
     width: 500px;
     height: 400px;
   }
+
+
 
 
 

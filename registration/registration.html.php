@@ -65,7 +65,7 @@ Author: Barbara Orts
 
     <section class="col_four">
         <h2>Registration Form </h2>
-        <p>Required fields are marked with an asterisk (*).</p>
+        <p class="center_para">Required fields are marked with an asterisk (*).</p>
 
          <div id="registrationform">
             <form method="post" action=" ">

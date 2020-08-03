@@ -18,6 +18,7 @@ Author: Barbara Orts
     <link rel="stylesheet" href="../styles/reset.css" type="text/css">
     <link rel="stylesheet/less" href="../styles/navigation.less" type="text/css">
     <link rel="stylesheet/less" href="../styles/forms.less" type="text/css">
+    <link rel="stylesheet/less" href="../styles/table.less" type="text/css">
     <link rel="stylesheet/less" href="../styles/style.less" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Roboto&display=swap"
           rel="stylesheet">
@@ -54,49 +55,84 @@ Author: Barbara Orts
             or come to compete to win, but make sure you come to have fun!</p></section>
 
     <section class="col_two">
-        <h2>Course details</h2>
-        <p>WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday and the
-            morning of the race. Wetsuits are recommended.
+        <h2>Triathlon course details</h2>
+        <div class='rg-container'>
+            <table class='rg-table' summary='Hed'>
+                <thead>
+                <tr>
+                    <th class='text '></th>
+                    <th class='text '>Swim</th>
+                    <th class='text '>Bike</th>
+                    <th class='text '>Run</th>
+                </tr>
+                </thead>
+                <tbody>
 
-            Long Course SWIM - 1.2mi - Participants will make two counter-clockwise loops. Large buoys will mark the
-            turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be
-            present on the beach.
+                <tr class=''>
+                    <td class='textred' data-title=''>Long Course</td>
+                    <td class='text ' data-title='Swim'>1.2mi - Participants will make the 2 counter-clocwise loops.
+                        Large buoys will mark the turn points. Kayakers will be positioned on the water to support the
+                        swimmers. Medical support will be present at the beach.
+                    </td>
+                    <td class='text ' data-title='Bike'>58 Miles - A scenic point-to-point course that travels over
+                        gently rolling hills prior to three hard climbs. The bike course will be marked with large
+                        directional signage and there will be course marshals at key intersections to help direct you.
+                    </td>
+                    <td class='text ' data-title='Run'>13.1mi - A mostly flat loop course on widely paved bike paths
+                        that traverse through and around this beautiful and scenic destination resort (two hills total
+                        with a minimal elevation gain).
+                    </td>
+                </tr>
 
-            Long Course BIKE - 58 Miles: A scenic point-to-point course that travels over gently rolling hills prior to
-            three hard climbs. The bike course will be marked with large directional signage and there will be course
-            marshals at key intersections to help direct you.
 
-            Long Course RUN - 13.1mi - A mostly flat loop course on widely paved bike paths that traverse through and
-            around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).
+                <tr class=''>
+                    <td class='textred' data-title=''>Olympic</td>
+                    <td class='text ' data-title='Swim'>1,500 meters - Participants will make two counter-clockwise
+                        loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to
+                        support the swimmers. Medical support will be present on the beach.
+                    </td>
+                    <td class='text ' data-title='Bike'>28mi - A scenic point-to-point course that travels over gently
+                        rolling hills. The bike course will be marked with large directional signage and course marshals
+                        will be present at key intersections.
+                    </td>
+                    <td class='text ' data-title='Run'>10K - A mostly flat loop course on widely paved bike paths that
+                        traverse through and around this beautiful and scenic destination resort (one hill total with a
+                        minimal elevation gain).
+                    </td>
+                </tr>
 
-            OLYMPIC SWIM - 1,500 meters - Participants will make two counter-clockwise loops. Large buoys will mark the
-            turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be
-            present on the beach.
 
-            OLYMPIC BIKE - 28mi - A scenic point-to-point course that travels over gently rolling hills. The bike course
-            will be marked with large directional signage and course marshals will be present at key intersections.
+                <tr class=''>
+                    <td class='textred' data-title=''>Sprint</td>
+                    <td class='text ' data-title='Swim'>1-loop 1/2 mile swim</td>
+                    <td class='text ' data-title='Bike'>28mi - A scenic point-to-point course that travels over gently
+                        rolling hills. The bike course will be marked with large directional signage and course marshals
+                        will be present at key intersections.
+                    </td>
+                    <td class='text ' data-title='Run'>5k</td>
+                </tr>
 
-            OLYMPIC RUN - 10K - A mostly flat loop course on widely paved bike paths that traverse through and around
-            this beautiful and scenic destination resort (one hill total with a minimal elevation gain).
-
-            Sprint: Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance
-            and a 5km run.
-
-            Try-A-Tri: This novice race is designed for the first time triathlete, those new to the sport, our Junior
-            Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile
-            Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator
-            friendly!) and a flat 2 mile run (vs 3 mile sprint course).
-
-            Half Marathon COURSE: Half-Marathon (13.1-miles): Half-Marathon event starts and finishes in the Athletes
-            Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line
-            festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be
-            provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified
-
-            10k COURSE: The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft
-            wide, perfectly paved and wind around through the forest. Each course has only two small hills with a
-            minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.
-
-            Splash n' Dash: Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. </p>
+                </tbody>
+            </table>
+        </div>
+        <h2>Other events course details</h2>
+        <h3 class="textred">Try-A-Tri</h3>
+        <p>This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes.
+            The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance
+            swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a
+            flat 2 mile run (vs 3 mile sprint course).</p>
+        <h3 class="textred">Half Marathon (13.1 miles)</h3>
+        <p>Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once
+            finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live
+            entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will
+            begin once the results have been certified</p>
+        <h3 class="textred">10k</h3>
+        <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly
+            paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain
+            to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
+        <h3 class="textred">Splash n' Dash</h3>
+        <p>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult
+            registers for an event otherwise it is $25</p>
 
     </section>
 
@@ -109,7 +145,7 @@ Author: Barbara Orts
             otherwise, you will have a very difficult time getting off your wet suit.</p>
         <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
 
-        <p>check out the requirements below:</p>
+        <p>Check out the requirements below:</p>
 
 
         <dl>
@@ -172,7 +208,7 @@ Author: Barbara Orts
                     With that said, we also understand that many athletes rely on music to help endure the challenge of
                     running. To accommodate the needs of our athletes while still assuring maximum safety and a fair,
                     competitive environment, here is the arrangement that we can accommodate:</p>
-                <ul>
+                <ul class="faq">
                     <li>If you chose to use a personal music device, you must always keep one ear open for instructions
                         so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not
                         be eligible for awards, points and rankings. So as an athlete, you have to make a choice - music
@@ -191,7 +227,9 @@ Author: Barbara Orts
             <dt>Do I need to wear a wetsuit?</dt>
             <dd>
                 <p>No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear
-                    a wetsuit because of the buoyancy and warmth factor.</p>
+                    a wetsuit because of the buoyancy and warmth factor. WATER TEMPERATURE is expected to be between 62
+                    & 66 degrees. The temperature will be taken on Friday and the
+                    morning of the race. Wetsuits are recommended.</p>
             </dd>
 
             <dt>Do I have to use a road or racing bike?</dt>

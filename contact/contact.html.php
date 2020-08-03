@@ -46,13 +46,13 @@ Author: Barbara Orts
         Portland, OR 97210</p>
         <p><a class="inside_link" href="tel:503-555-555">Ph:503-555-555</a></p>
     <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.760909571732!2d-122.69712308444022!3d45.53501667910191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549509e47d89f655%3A0x5d229b4d2991e1e4!2s2111%20NW%20Savier%20St%2C%20Portland%2C%20OR%2097210!5e0!3m2!1sen!2sus!4v1596394872084!5m2!1sen!2sus"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.760909571732!2d-122.69712308444022!3d45.53501667910191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549509e47d89f655%3A0x5d229b4d2991e1e4!2s2111%20NW%20Savier%20St%2C%20Portland%2C%20OR%2097210!5e0!3m2!1sen!2sus!4v1596394872084!5m2!1sen!2sus"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     </section>
 
-    <section class="col_four center_para">
+    <section class="col_four">
         <h2>Questions or comments?</h2>
-        <p>Complete the form below or send us an email directly to <a class="inside_link" href="mailto:aith@multisportevents.com">aith@multisportevents.com</a></p>
+        <p class="center_para">Complete the form below or send us an email directly to <a class="inside_link" href="mailto:aith@multisportevents.com">aith@multisportevents.com</a></p>
         <div id="contactform">
             <form method="post" action=" ">
 
@@ -77,7 +77,7 @@ Author: Barbara Orts
                 <input id="submit" type="submit" value="Submit">
             </form>
         </div>
-        <img src="../images/ace7.jpg" alt="High fives at the finish line">
+
     </section>
 
 
