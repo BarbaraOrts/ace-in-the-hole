@@ -29,7 +29,7 @@ Author: Barbara Orts
 
 @bodyMargin: .3em 0;
 @mobileMainMargin: 0.5em 0.5em;
-@tabletMainMargin: 0.5em 1 em;
+@tabletMainMargin: 0.5em 1em;
 @desktopMainMargin: 0.5em 1em;
 @pMargin: 0.6em 0.5em;
 
@@ -54,7 +54,7 @@ body {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-      }
+}
 
 
 main {
@@ -76,7 +76,7 @@ h2 {
   margin: @pMargin;
   font-weight: bold;
   #ace_mixins > .size(@h2FontSize);
-  color: RGB(255,0,0);
+  color: RGB(255, 0, 0);
   text-align: center;
 }
 
@@ -98,7 +98,7 @@ a.inside_link {
 .cost {
   list-style-position: inside;
   margin-left: 20px;
-  }
+}
 
 ul.faq {
   list-style: inside circle;
@@ -108,7 +108,7 @@ ul.faq {
 
 footer {
   #ace_mixins > .color(@footerColor);
-  margin: 10px 0 ;
+  margin: 10px 0;
   text-align: center;
   background-color: white;
 }
@@ -140,7 +140,7 @@ ul.start {
 ul.start_times li {
   list-style: inside circle;
   padding: 5px;
-  }
+}
 
 
 .rego_button {
@@ -191,9 +191,6 @@ img.about_img, img.rego_photo, img.contact_img {
 .center_para {
   text-align: center;
 }
-
-
-
 
 /* SMALL IMG GALLERY _ STATIC _ GRID */
 
@@ -254,14 +251,14 @@ img.about_img, img.rego_photo, img.contact_img {
   grid-row-end: 9;
 }
 
-/* EVENT PAGE LAYOUT*/
-
-
-
-main.event_page {
-  display: grid;
-
+.galleria {
+  width: 100%;
+  height: 400px;
+  background: #000;
 }
+
+
+/* EVENT PAGE LAYOUT*/
 
 dt, dd {
   margin: 2px 0;
@@ -272,13 +269,11 @@ dt {
   font-size: 1.1em;
   color: red;
 }
+
 dt:hover {
   color: #ff0000;
 }
 
-dd {
-
-  }
 
 /* arrow icon left */
 
@@ -314,12 +309,11 @@ dt.open:hover:before {
 /* MOBILE ONLY STYLES */
 @media only screen and (min-width: 320px) and (max-width: 765px) {
 
-  iframe {
+  iframe.map {
     width: 250px;
   }
 
 }
-
 
 
 /* TABLET STYLES */
@@ -356,14 +350,29 @@ dt.open:hover:before {
     margin: 30px 20%;
   }
 
-.rego_button {
-  margin: 30px 20%;
-}
+  .rego_button {
+    margin: 30px 20%;
+  }
 
-iframe {
-  width: 400px;
-  height: 300px;
-}
+  iframe.map {
+    width: 400px;
+    height: 300px;
+  }
+
+  /* ABOUT PAGE LAYOUT*/
+  .grid_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .col_one {
+    grid-column: 1 / 2;
+  }
+
+  .col_two {
+    grid-column: 2 / 3;
+  }
 
 }
 
@@ -413,8 +422,25 @@ iframe {
     height: 400px;
   }
 
+  .galleria-images {
+    width: 100%;
+  }
 
+  /* ABOUT PAGE LAYOUT*/
 
+  .grid_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .col_one {
+    grid-column: 1 / 2;
+  }
+
+  .col_two {
+    grid-column: 2 / 3;
+  }
 
 
 }

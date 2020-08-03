@@ -89,12 +89,12 @@ Author: Barbara Orts
     <section class="col_four">
         <h2>We share a passion for running, swimming and biking!</h2>
         <div class="photoGallery">
-            <img class="image1" src="images/running1.jpg" alt="placeholder">
-            <img class="image2" src="images/running2.jpg" alt="placeholder">
-            <img class="image3" src="images/image3_ace1.jpg" alt="placeholder">
-            <img class="image4" src="images/ace16.jpg" alt="Bill as a placeholder">
-            <img class="image5" src="images/image5_ace5.jpg" alt="Bill as a placeholder">
-            <img class="image6" src="images/ace10.jpg" alt="Bill as a placeholder">
+            <img class="image1" src="images/running1.jpg" alt="Runner legs">
+            <img class="image2" src="images/running2.jpg" alt="A person running in the late afternoon">
+            <img class="image3" src="images/ace20.jpg" alt="A marathon runner happy in the mountains">
+            <img class="image4" src="images/ace16.jpg" alt="Middle of the pack of a race">
+            <img class="image5" src="images/contact_ace18.jpg" alt="A highway full of runners">
+            <img class="image6" src="images/ace10.jpg" alt="The finish line">
         </div>
     </section>
 

@@ -26,6 +26,10 @@ Author: Barbara Orts
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -37,13 +41,13 @@ Author: Barbara Orts
     <?php include '../includes/nav.inc.html.php'; ?>
 
     <div class="hero">
-        <img src="../images/hero_about_ace2.jpg"  alt="Sally enjoying the 10k race in May 2018 in crutches">
+        <img src="../images/hero_about_ace2.jpg" alt="Sally enjoying the 10k race in May 2018 in crutches">
     </div>
 
 </header>
 
 <main>
-
+    <div class="grid_layout">
     <section id="section_one" class="col_one">
         <h2>About us </h2>
         <p>We started back in 1995. A group of friends, enjoying the outdoors and training. After many informal races in
@@ -59,15 +63,35 @@ Author: Barbara Orts
             and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every
             Body.</p>
     </section>
+    </div>
 
-    <section class="col_three center_para">
-        <img src="../images/ace20.jpg" alt="A runner with an amazing background" class="about_img">
-    </section>
+    <section class="col_four center_para">
+        <h2>Past Events Photo Gallery</h2>
 
-    <section class="col_four">
-        <h2>Photo Gallery JS</h2>
-        <p>
-        </p>
+        <div class="galleria">
+            <img src="../images/ace4.jpg" alt="Swimmers at a triathlon jumping in the water">
+            <img src="../images/ace6.jpg" alt="Winners posing for photos">
+            <img src="../images/ace7.jpg" alt="High fives at the last yard towards the finish line">
+            <img src="../images/ace9.jpg" alt="Wheelchair participants celebrating a finish">
+            <img src="../images/ace10.jpg" alt="the finish line">
+            <img src="../images/ace12.jpg" alt="A pack of riders">
+            <img src="../images/ace13.jpg" alt="Runners at the start of a race">
+            <img src="../images/ace14.jpg" alt="Runners racing on the track">
+            <img src="../images/ace16.jpg" alt="Middle of the pack of a race">
+            <img src="../images/image3_ace1.jpg" alt="Running to the water">
+            <img src="../images/image4_ace3.jpg" alt="A rider celebrating victory">
+            <img src="../images/image5_ace5.jpg" alt="Bike riders in a turn">
+            <img src="../images/image6_ace17.jpg" alt="Marathoners running">
+            <img src="../images/rego_ace11.jpg" alt="Marathoners running photo of legs">
+        </div>
+
+
+        <script>
+            (function () {
+                Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/classic/galleria.classic.min.js');
+                Galleria.run('.galleria');
+            }());
+        </script>
 
     </section>
 
@@ -75,5 +99,6 @@ Author: Barbara Orts
 
 <?php include '../includes/footer.inc.html.php'; ?>
 <script src="../scripts/navigation.js"></script>
+
 </body>
 </html>
