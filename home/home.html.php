@@ -87,7 +87,6 @@ Author: Barbara Orts
     </section>
 
     <section class="col_four">
-        <h2>We share a passion for running, swimming and biking!</h2>
         <div class="photoGallery">
             <img class="image1" src="images/running1.jpg" alt="Runner legs">
             <img class="image2" src="images/running2.jpg" alt="A person running in the late afternoon">

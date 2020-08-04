@@ -21,7 +21,7 @@ if (isset($_POST['fullname'])) {
     $role = $_POST['role'];
     $saturday = $_POST['saturday'];
     $sunday = $_POST['sunday'];
-    $DOB = $_POST['dob'];
+    $age = $_POST['age'];
     $gender = $_POST['gender'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -37,7 +37,7 @@ if (isset($_POST['fullname'])) {
             registration_role = :registration_role,
             registration_saturday = :registration_saturday,
             registration_sunday = :registration_sunday,
-            registration_DOB = :registration_DOB,
+            registration_age = :registration_age,
             registration_gender = :registration_gender,
             registration_email = :registration_email,
             registration_phone = :registration_phone,
@@ -51,7 +51,7 @@ if (isset($_POST['fullname'])) {
         $s->bindValue(':registration_role', $role);
          $s->bindValue(':registration_saturday', $saturday);
          $s->bindValue(':registration_sunday', $sunday);
-        $s->bindValue(':registration_DOB', $DOB);
+        $s->bindValue(':registration_age', $age);
         $s->bindValue(':registration_gender', $gender);
         $s->bindValue(':registration_email', $email);
         $s->bindValue(':registration_phone', $phone);
