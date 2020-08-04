@@ -27,11 +27,11 @@ Author: Barbara Orts
 
 /* margins */
 
-@pHeadingMargin: 1em 0;
-@mBodyMargin: 0 1em;
-@tBodyMargin: 0 4%;
-@dBodyMargin: 0.5em ;
-@olLiLeftMargin: 8px;
+@bodyMargin: .3em 0;
+@mobileMainMargin: 0.5em 0.5em;
+@tabletMainMargin: 0.5em 1 em;
+@desktopMainMargin: 0.5em 1em;
+@pMargin: 0.6em 0.5em;
 
 @import "mixins.less";
 
@@ -43,36 +43,23 @@ body, html {
 }
 
 body {
-  display: grid;
   font-family: 'Roboto', sans-serif;
-  #ace_mixins > .commonProperties (@mBgColor, @mFontSize, @mBodyMargin);
-}
-
-header {
-  display: grid;
-    }
-
-header, footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  #ace_mixins > .commonProperties (@mBgColor, @mFontSize, @bodyMargin);
 }
 
 #logotype {
-  width: 100%;
+  max-width: 100%;
+  width: 500px;
   height: auto;
-  margin: 10px;
-  }
+    }
 
-/* HERO IMAGE */
-
-.hero img{
-  width: 100%;
-  height: auto;
+main {
+  background-color: white;
+  padding: 10px;
 }
 
-
 p {
-  margin: @pHeadingMargin;
+  margin: @mobileMainMargin;
 }
 
 h1 {
@@ -82,9 +69,14 @@ h1 {
 }
 
 h2 {
-  margin: @pHeadingMargin;
+  margin: @pMargin;
   font-weight: bold;
   #ace_mixins > .size(@h2FontSize);
+  color: RGB(255,0,0);
+}
+
+h3 {
+  margin: @pMargin;
 }
 
 
@@ -92,10 +84,19 @@ footer {
   #ace_mixins > .color(@footerColor);
   margin: 10px 0 ;
   text-align: center;
+  background-color: white;
 }
 
 .footer_bio {
   font-size: 0.8em;
+  padding: 5px;
+}
+
+/* HERO IMAGE */
+
+.hero img{
+  width: 100%;
+  height: auto;
 }
 
 /* SMALL IMG GALLERY _ STATIC _ GRID */
@@ -105,7 +106,8 @@ footer {
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
-  margin: 1.5em;
+  margin: 15px;
+  padding: 20px;
 }
 
 .photoGallery img {
@@ -156,10 +158,58 @@ footer {
   grid-row-end: 9;
 }
 
+/* Forms */
+
+form {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 30px;
+  background-color: #FFE5E5;
+  margin: 50px auto;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px ;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  font-size: 1em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  font-size: 1em;
+}
+
+::placeholder {
+  font-size: 1em;
+}
+
+input[type=submit] {
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
 
 /* MOBILE STYLES */
 
 //@media only screen and (max-width: 480px) {
+//
+//
 //
 //
 //}
@@ -169,10 +219,11 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   body {
-    #ace_mixins > .commonProperties(@tBgColor, @tFontSize, @tBodyMargin);
+    #ace_mixins > .commonProperties(@tBgColor, @tFontSize, @bodyMargin);
   }
 
   main {
+    margin: @tabletMainMargin;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -206,23 +257,13 @@ footer {
 @media only screen and (min-width: 1025px) {
 
   body {
-    #ace_mixins > .commonProperties(@dBgColor, @dFontSize, @dBodyMargin);
+    #ace_mixins > .commonProperties(@dBgColor, @dFontSize, @bodyMargin);
   }
 
-  header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  main {
+    margin: @desktopMainMargin;
   }
 
-  header a {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-
-  input, label, ul, div {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
 
 
 
