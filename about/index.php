@@ -48,22 +48,38 @@ Author: Barbara Orts
 
 <main>
     <div class="grid_layout">
-    <section id="section_one" class="col_one">
-        <h2>About us </h2>
-        <p>We started back in 1995. A group of friends, enjoying the outdoors and training. After many informal races in
-            the Portland area, we decided to start Ace in the Hole Multisports Events. We love bringing people together
-            and we still enjoy the social aspect of the events we put out.
-        </p>
+        <section id="section_one" class="col_one">
+            <h2>About us </h2>
+            <p>We started back in 1995. A group of friends, enjoying the outdoors and training. After many informal
+                races in
+                the Portland area, we decided to start Ace in the Hole Multisports Events. We love bringing people
+                together
+                and we still enjoy the social aspect of the events we put out.
+            </p>
+        </section>
+
+
+        <section class="col_two">
+            <h2>Our Mission </h2>
+            <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all
+                shapes
+                and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every
+                Body.</p>
+        </section>
+          </div>
+
+    <section class="social_media_feeds">
+        <h2>Follow us!</h2>
+        <a class="twitter-timeline social_feed" data-width="450" data-height="320" data-theme="dark"
+           href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by Ace in the Hole Multisport Events</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <iframe class="social_feed" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D110944337146713%26id%3D110661963841617&show_text=true&width=552&height=158&appId"
+                width="450" height="250" style="overflow:hidden" scrolling="no" frameborder="0"
+                allowTransparency="true" allow="encrypted-media"></iframe>
     </section>
 
 
-    <section class="col_two">
-        <h2>Our Mission </h2>
-        <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes
-            and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every
-            Body.</p>
-    </section>
-    </div>
 
     <section class="col_four center_para">
         <h2>Past Events Photo Gallery</h2>
