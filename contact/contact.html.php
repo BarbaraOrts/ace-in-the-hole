@@ -3,7 +3,7 @@
 <!--
 File Name: contact.html.php
 Date: 7/22/20
-Author: Barbara Orts
+Designer: Barbara Orts
 -->
 
 <html lang="en">

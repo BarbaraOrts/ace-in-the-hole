@@ -3,7 +3,7 @@
 <!--
 File Name: success.html.php
 Date: 7/29/20
-Author: Barbara Orts
+Designer: Barbara Orts
 -->
 
 <html lang="en">

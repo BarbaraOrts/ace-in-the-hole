@@ -3,7 +3,7 @@
 <!--
 File Name: index.php
 Date: 7/30/20
-Author: Barbara Orts
+Designer: Barbara Orts
 -->
 
 <html lang="en">
